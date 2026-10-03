@@ -1,6 +1,6 @@
 # Ezron Garner
-# 09/18/2026
-# P1HW2 
+# 10/3/2026
+# P2HW1
 # User enters budget and the budget they have left is outputted
 
 print ("----This program calculates and displays travel expenses----")
