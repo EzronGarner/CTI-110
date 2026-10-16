@@ -26,8 +26,7 @@ average = total / len(grades)
 # determine letter grade for average
 
 letter_grades = ["F", "D", "C", "B", "A"]
-letter_grade = letter_grades[int(average // 10) - 5]
-
+grade_ranges = [0, 60, 70, 80, 90]
 
 #results
 
@@ -35,4 +34,4 @@ print(f"{'Lowest Grade:':<20} {low:<10}")
 print(f"{'Highest Grade:':<20} {high:<10}")
 print(f"{'Sum of Grades:':<20} {total:<10}")
 print(f"{'Average:':<20} {average:<10.2f}")
-print(f"{'Letter Grade:':<20} {letter_grade:<10}")
+print(f"{'Letter Grade:':<20} {letter_grades[0]:<10}")
